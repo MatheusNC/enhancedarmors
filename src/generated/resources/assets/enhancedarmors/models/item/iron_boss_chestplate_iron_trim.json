@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "enhancedarmors:item/iron_boss_chestplate",
+    "layer2": "minecraft:trims/items/chestplate_trim_iron"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "enhancedarmors:item/boss_armor_shard"
+  }
+}

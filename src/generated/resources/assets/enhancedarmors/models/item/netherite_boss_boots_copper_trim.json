@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "enhancedarmors:item/netherite_boss_boots",
+    "layer2": "minecraft:trims/items/boots_trim_copper"
+  }
+}

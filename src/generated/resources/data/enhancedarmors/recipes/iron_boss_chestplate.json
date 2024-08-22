@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "enhancedarmors:boss_armor_shard"
+  },
+  "base": {
+    "item": "minecraft:iron_chestplate"
+  },
+  "result": {
+    "item": "enhancedarmors:iron_boss_chestplate"
+  },
+  "template": []
+}

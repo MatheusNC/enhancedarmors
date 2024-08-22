@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "enhancedarmors:boss_armor_shard"
+  },
+  "base": {
+    "item": "minecraft:diamond_helmet"
+  },
+  "result": {
+    "item": "enhancedarmors:diamond_boss_helmet"
+  },
+  "template": []
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "enhancedarmors:boss_armor_shard"
+  },
+  "base": {
+    "item": "minecraft:golden_helmet"
+  },
+  "result": {
+    "item": "enhancedarmors:gold_boss_helmet"
+  },
+  "template": []
+}

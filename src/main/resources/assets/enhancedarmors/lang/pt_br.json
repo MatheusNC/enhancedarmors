@@ -1,0 +1,34 @@
+{
+  "item.enhancedarmors.boss_armor_shard": "Fragmento de Armadura do Chefão",
+  "creativetab.enhanced_armors": "Armaduras Aprimoradas",
+
+  "item.enhancedarmors.leather_boss_helmet": "Capacete de Couro com Fragmentos",
+  "item.enhancedarmors.leather_boss_chestplate": "Peitoral de Couro com Fragmentos",
+  "item.enhancedarmors.leather_boss_leggings": "Calças de Couro com Fragmentos",
+  "item.enhancedarmors.leather_boss_boots": "Botas de Couro com Fragmentos",
+
+  "item.enhancedarmors.chainmail_boss_helmet": "Capacete de Cota de Malha com Fragmentos",
+  "item.enhancedarmors.chainmail_boss_chestplate": "Peitoral de Cota de Malha com Fragmentos",
+  "item.enhancedarmors.chainmail_boss_leggings": "Calças de Cota de Malha com Fragmentos",
+  "item.enhancedarmors.chainmail_boss_boots": "Botas de Cota de Malha com Fragmentos",
+
+  "item.enhancedarmors.iron_boss_helmet": "Capacete de Ferro com Fragmentos",
+  "item.enhancedarmors.iron_boss_chestplate": "Peitoral de Ferro com Fragmentos",
+  "item.enhancedarmors.iron_boss_leggings": "Calças de Ferro com Fragmentos",
+  "item.enhancedarmors.iron_boss_boots": "Botas de Ferro com Fragmentos",
+
+  "item.enhancedarmors.gold_boss_helmet": "Capacete de Ouro com Fragmentos",
+  "item.enhancedarmors.gold_boss_chestplate": "Peitoral de Ouro com Fragmentos",
+  "item.enhancedarmors.gold_boss_leggings": "Calças de Ouro com Fragmentos",
+  "item.enhancedarmors.gold_boss_boots": "Botas de Ouro com Fragmentos",
+
+  "item.enhancedarmors.diamond_boss_helmet": "Capacete de Diamante com Fragmentos",
+  "item.enhancedarmors.diamond_boss_chestplate": "Peitoral de Diamante com Fragmentos",
+  "item.enhancedarmors.diamond_boss_leggings": "Calças de Diamante com Fragmentos",
+  "item.enhancedarmors.diamond_boss_boots": "Botas de Diamante com Fragmentos",
+
+  "item.enhancedarmors.netherite_boss_helmet": "Capacete de Netherita com Fragmentos",
+  "item.enhancedarmors.netherite_boss_chestplate": "Peitoral de Netherita com Fragmentos",
+  "item.enhancedarmors.netherite_boss_leggings": "Calças de Netherita com Fragmentos",
+  "item.enhancedarmors.netherite_boss_boots": "Botas de Netherita com Fragmentos"
+}
