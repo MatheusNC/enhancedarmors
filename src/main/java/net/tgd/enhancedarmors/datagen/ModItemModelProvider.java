@@ -17,7 +17,6 @@ import net.tgd.enhancedarmors.EnhancedArmors;
 import net.tgd.enhancedarmors.init.ModItems;
 
 import java.util.LinkedHashMap;
-import java.util.List;
 
 public class ModItemModelProvider extends ItemModelProvider {
     private static LinkedHashMap<ResourceKey<TrimMaterial>, Float> trimMaterials = new LinkedHashMap<>();
@@ -58,6 +57,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.NETHERITE_BOSS_LEGGINGS);
         trimmedArmorItem(ModItems.NETHERITE_BOSS_CHESTPLATE);
         trimmedArmorItem(ModItems.NETHERITE_BOSS_HELMET);
+
+        withExistingParent(ModItems.ARMORED_BOSS_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {

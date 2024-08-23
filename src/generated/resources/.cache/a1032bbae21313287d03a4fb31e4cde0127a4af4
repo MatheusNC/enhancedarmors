@@ -1,3 +1,4 @@
-// 1.20.1	2024-08-22T18:57:09.5203175	Global Loot Modifiers : enhancedarmors
+// 1.20.1	2024-08-23T16:11:52.9378244	Global Loot Modifiers : enhancedarmors
+50e7791210a4a2b77808d985970f00c1e1bb86c7 data/enhancedarmors/loot_modifiers/boss_armor_shard_from_armored_boss.json
 62b274c87ab1812a3e50703f6a3490e5b743b721 data/enhancedarmors/loot_modifiers/boss_armor_shard_from_warden.json
-79f06767870ef65267431ba8a32db3ca2d5db26a data/forge/loot_modifiers/global_loot_modifiers.json
+0267833ae9279ae62285bb34226be213bf9708db data/forge/loot_modifiers/global_loot_modifiers.json

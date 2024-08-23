@@ -1,6 +1,7 @@
 {
   "entries": [
-    "enhancedarmors:boss_armor_shard_from_warden"
+    "enhancedarmors:boss_armor_shard_from_warden",
+    "enhancedarmors:boss_armor_shard_from_armored_boss"
   ],
   "replace": false
 }

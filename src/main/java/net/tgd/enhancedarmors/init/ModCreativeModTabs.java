@@ -18,22 +18,28 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.enhanced_armors"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.BOSS_ARMOR_SHARD.get());
+
                         pOutput.accept(ModItems.IRON_BOSS_BOOTS.get());
                         pOutput.accept(ModItems.IRON_BOSS_LEGGINGS.get());
                         pOutput.accept(ModItems.IRON_BOSS_CHESTPLATE.get());
                         pOutput.accept(ModItems.IRON_BOSS_HELMET.get());
+
                         pOutput.accept(ModItems.GOLD_BOSS_BOOTS.get());
                         pOutput.accept(ModItems.GOLD_BOSS_LEGGINGS.get());
                         pOutput.accept(ModItems.GOLD_BOSS_CHESTPLATE.get());
                         pOutput.accept(ModItems.GOLD_BOSS_HELMET.get());
+
                         pOutput.accept(ModItems.DIAMOND_BOSS_BOOTS.get());
                         pOutput.accept(ModItems.DIAMOND_BOSS_LEGGINGS.get());
                         pOutput.accept(ModItems.DIAMOND_BOSS_CHESTPLATE.get());
                         pOutput.accept(ModItems.DIAMOND_BOSS_HELMET.get());
+
                         pOutput.accept(ModItems.NETHERITE_BOSS_BOOTS.get());
                         pOutput.accept(ModItems.NETHERITE_BOSS_LEGGINGS.get());
                         pOutput.accept(ModItems.NETHERITE_BOSS_CHESTPLATE.get());
                         pOutput.accept(ModItems.NETHERITE_BOSS_HELMET.get());
+
+                        pOutput.accept(ModItems.ARMORED_BOSS_SPAWN_EGG.get());
                     })
                     .build());
 

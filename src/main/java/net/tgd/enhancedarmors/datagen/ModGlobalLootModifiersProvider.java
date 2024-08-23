@@ -18,5 +18,7 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
     protected void start() {
         add("boss_armor_shard_from_warden", new AddItemModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(new ResourceLocation("entities/warden")).build() }, ModItems.BOSS_ARMOR_SHARD.get()));
+        add("boss_armor_shard_from_armored_boss", new AddItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation(EnhancedArmors.MOD_ID,"entities/armored_boss")).build() }, ModItems.BOSS_ARMOR_SHARD.get()));
     }
 }

@@ -1,6 +1,7 @@
 package net.tgd.enhancedarmors;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -14,6 +15,8 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.tgd.enhancedarmors.entity.ModEntities;
+import net.tgd.enhancedarmors.entity.client.ArmoredBossRenderer;
 import net.tgd.enhancedarmors.init.ModArmorMaterials;
 import net.tgd.enhancedarmors.init.ModCreativeModTabs;
 import net.tgd.enhancedarmors.init.ModItems;
@@ -36,6 +39,7 @@ public class EnhancedArmors
         ModItems.register(modEventBus);
 
         ModLootModifiers.register(modEventBus);
+        ModEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -88,7 +92,7 @@ public class EnhancedArmors
     {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            EntityRenderers.register(ModEntities.ARMORED_BOSS.get(), ArmoredBossRenderer::new);
         }
     }
 }
